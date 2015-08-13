@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="br.com.framework.meusgames.GameActivity">
+
+    <ImageView
+        android:id="@+id/img_game"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/text_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@+id/img_game"
+        android:text="Fifa 2015"
+        fontPath="fonts/Roboto-Medium.ttf"/>
+
+    <TextView
+        android:id="@+id/text_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_game"
+        android:layout_below="@+id/text_ano"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:text="Categoria: Futebol"/>
+
+    <TextView
+        android:id="@+id/text_ano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/img_game"
+        android:layout_below="@+id/text_nome"
+        android:text="Ano: 2015"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/img_game"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/comentarios"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="2"
+            android:layout_weight="1">
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_mais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Mais"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

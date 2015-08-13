@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Meus Games</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg_error_login">Login é um campo obrigatorio!</string>
+    <string name="msg_error_senha">Senha é um campo obrigatorio!</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="msg_sucesso_favoritar">Adicionado aos favoritos.</string>
+    <string name="msg_sucesso_add_biblioteca">Adicionado na biblioteca.</string>
+    <string name="title_activity_games">Games</string>
+    <string name="lbl_ano">Ano: %d</string>
+    <string name="lbl_pontuacao">Pontuação: %.1f</string>
+    <string name="title_activity_cadastro_game">Novo Game</string>
+    <string name="galeria">Galeria</string>
+    <string name="camera">Câmera</string>
+    <string name="title_dialog_foto">Foto</string>
+    <string name="message_dialog_foto">De onde você deseja obter a foto?</string>
+    <string name="action_add_novo_game">Adicionar novo game</string>
+</resources>

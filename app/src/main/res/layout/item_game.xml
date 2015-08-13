@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/card_view"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/image_game"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/nome_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image_game"
+            android:textAppearance="@style/TextAppearance.Title"/>
+
+        <TextView
+            android:id="@+id/ano_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image_game"
+            android:layout_below="@+id/nome_game"
+            android:textAppearance="@style/TextAppearance.Subtitle"/>
+
+        <TextView
+            android:id="@+id/pontucao_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image_game"
+            android:layout_below="@+id/ano_game"
+            android:textAppearance="@style/TextAppearance.Subtitle"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

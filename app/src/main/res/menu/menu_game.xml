@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.framework.meusgames.GameActivity">
+
+    <item android:id="@+id/action_favoritar" android:title="Favoritar"
+        android:icon="@drawable/ic_favorite_border_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_add_biblioteca" android:title="Adicionar Biblioteca"
+        android:icon="@drawable/ic_library_add_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
