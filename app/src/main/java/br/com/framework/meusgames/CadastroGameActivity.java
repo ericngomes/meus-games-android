@@ -24,8 +24,10 @@ public class CadastroGameActivity extends BaseActivity {
 
     @Bind(R.id.img_game)
     ImageView imgGame;
+
     @Bind(R.id.edit_nome)
     EditText editNome;
+
     @Bind(R.id.edit_descricao)
     EditText editDescricao;
     @Bind(R.id.edit_ano)
@@ -71,7 +73,7 @@ public class CadastroGameActivity extends BaseActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @OnClick(R.id.image_game)
+    @OnClick(R.id.img_game)
     void onClickImageGame(View view) {
         openDialogFoto();
     }
